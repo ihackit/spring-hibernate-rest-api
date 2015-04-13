@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ihackit</groupId>
-    <artifactId>SampleRestApiUsingSpringHibernateMySQL</artifactId>
+    <artifactId>spring-hibernate-rest-api</artifactId>
     <version>0.1.0</version>
 
 	<properties>
@@ -23,42 +23,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-core</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	<!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-beans</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	<!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-context</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	<!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-web</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	<!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-webmvc</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	<!-- <dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-jdbc</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency>
-	  	<dependency>
-	  		<groupId>org.springframework</groupId>
-	  		<artifactId>spring-orm</artifactId>
-	  		<version>${org.springframework.version}</version>
-	  	</dependency> -->
-	  	
+
 	  	<!-- Hibernate Resources -->
 	  	<dependency>
 	  		<groupId>org.hibernate</groupId>
@@ -85,14 +50,14 @@
 	  		<artifactId>hibernate-core</artifactId>
 	  		<version>3.3.2.GA</version>
 	  	</dependency>
-	  	
+
 	  	<!-- MySQL DB -->
 	  	<dependency>
 	  		<groupId>mysql</groupId>
 	  		<artifactId>mysql-connector-java</artifactId>
 	  		<version>5.1.6</version>
 	  	</dependency>
-	  	
+
 	  	<!-- log4j -->
 	  	<dependency>
 	  		<groupId>log4j</groupId>
@@ -134,7 +99,7 @@
   	<groupId>com.ihackit</groupId>
   	<artifactId>SampleRestApiUsingSpringHibernateMySQL</artifactId>
   	<version>0.1.0</version>
-  	
+
   	<parent>
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-parent</artifactId>
@@ -153,11 +118,11 @@
       		<scope>test</scope>
     	</dependency>
   	</dependencies>
-  	
+
   	<properties>
     	<java.version>1.7</java.version>
   	</properties>
-  	
+
   	<build>
   		<plugins>
   			<plugin>
@@ -174,7 +139,7 @@
   			</plugin>
   		</plugins>
   	</build>
-  	
+
   	<repositories>
   		<repository>
   			<id>spring-releases</id>
