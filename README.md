@@ -21,3 +21,4 @@ mvn clean package
 java -jar target/spring-hibernate-rest-api-0.1.0.jar
 
 java -jar target/spring-hibernate-rest-api-0.1.0.jar --debug (to run in debug mode)
+
