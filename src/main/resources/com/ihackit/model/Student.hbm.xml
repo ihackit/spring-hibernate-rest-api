@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ihackit.model.Student" table="Student">
+        <id name="studentId" type="int">
+            <column name="studentId" precision="5" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstname" type="string">
+            <column name="firstname" length="20" not-null="true" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="lastname" length="20" not-null="true" />
+        </property>
+        <property name="yearLevel" type="int">
+            <column name="yearLevel" length="5" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
