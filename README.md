@@ -22,3 +22,9 @@ java -jar target/spring-hibernate-rest-api-0.1.0.jar
 
 java -jar target/spring-hibernate-rest-api-0.1.0.jar --debug (to run in debug mode)
 
+
+REST API
+--------
+localhost:8080/spring-hibernate-rest-api/student/get?id=1
+
+localhost:8080/spring-hibernate-rest-api/student/get/all
